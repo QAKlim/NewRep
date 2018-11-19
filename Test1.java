@@ -16,11 +16,11 @@ public class Test1 {
         //dragAndDropp
         driver.get("http://jqueryui.com/droppable/");
         driver.switchTo().frame(0);
-//        WebElement drog = driver.findElement(By.id("draggable"));
-//        WebElement drop = driver.findElement(By.id("droppable"));
-//        Actions action = new Actions(driver);
-//        action.moveToElement(drog).dragAndDrop(drog,drop).build().perform();
-//        System.out.println("dragAndDrop successful");
+        WebElement drog = driver.findElement(By.id("draggable"));
+        WebElement drop = driver.findElement(By.id("droppable"));
+        Actions action = new Actions(driver);
+        action.moveToElement(drog).dragAndDrop(drog,drop).build().perform();
+        System.out.println("dragAndDrop successful");
 
 
     }

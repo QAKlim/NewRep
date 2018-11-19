@@ -14,13 +14,13 @@ public class Test1 {
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
         //dragAndDropp
-        driver.get("http://jqueryui.com/droppable/");
-        driver.switchTo().frame(0);
-        WebElement drog = driver.findElement(By.id("draggable"));
-        WebElement drop = driver.findElement(By.id("droppable"));
-        Actions action = new Actions(driver);
-        action.moveToElement(drog).dragAndDrop(drog,drop).build().perform();
-        System.out.println("dragAndDrop successful");
+//        driver.get("http://jqueryui.com/droppable/");
+//        driver.switchTo().frame(0);
+//        WebElement drog = driver.findElement(By.id("draggable"));
+//        WebElement drop = driver.findElement(By.id("droppable"));
+//        Actions action = new Actions(driver);
+//        action.moveToElement(drog).dragAndDrop(drog,drop).build().perform();
+//        System.out.println("dragAndDrop successful");
 
 
     }
